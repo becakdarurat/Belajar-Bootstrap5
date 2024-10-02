@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadcrumb</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!-- Awal Container -->
+    <div class="container">
+     <h5>contoh 1</h5>
+     <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <!-- aria-current == menandakan posisi saat ini -->
+            <li class="breadcrumb-item active" aria-current="page">Home</li>
+          </ol>
+        
+     </nav>
+
+     <hr>
+     <h5>contoh 2</h5>
+     <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Data Siswa</li>
+          </ol>
+     </nav>
+
+     <hr>
+     <h5>contoh 3</h5>
+     <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <a href="#">Data Siswa</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Input Data Siswa</li>
+          </ol>
+     </nav>
+    </div>
+    <!-- Akhir Container -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
