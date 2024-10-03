@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!-- Awal Container -->
+    <div class="container">
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNgodingPintar" aria-expanded="false" aria-controls="collapseNgodingPintar">Klik saya untuk selengkapnya</button>
+
+        <!-- isi Collapse -->
+        <div class="collapse" id="collapseNgodingPintar">
+            <div class="card card-body">
+                <!-- Isi konten -->
+                <h5>Belajar Bootstrap 5</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nobis omnis quas nesciunt dolor commodi earum libero, aliquam, iste voluptatum, ipsam numquam sed laboriosam sint corporis tempore ut quasi nam!</p>
+                <br>
+                <small>-Channel Youtube Ngoding Pintar</small>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Collapse dengan link / a href -->
+        <a href="#collapseNgodingPintarA" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseNgodingPintarA" class="btn btn-danger"> Klick saya untuk selanjutnya</a>
+        
+         <!-- isi Collapse -->
+         <div class="collapse" id="collapseNgodingPintarA">
+            <div class="card card-body">
+                <!-- Isi konten -->
+                <h5>Belajar Bootstrap 5</h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nobis omnis quas nesciunt dolor commodi earum libero, aliquam, iste voluptatum, ipsam numquam sed laboriosam sint corporis tempore ut quasi nam!</p>
+                <br>
+                <small>-Channel Youtube Ngoding Pintar</small>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Container -->
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
