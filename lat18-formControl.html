@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Control</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    
+    <!-- Awal Container -->
+    <div class="container">
+        <br>
+        <h5>Contoh Form control</h5>
+        <form action="">
+            <input type="text" class="form-control" placeholder="Contoh form text...">
+            <br>
+            <input type="number" class="form-control" placeholder="Contoh form number...">
+            <br>
+            <textarea name="" class="form-control" placeholder="Contoh textarea..." id=""></textarea>
+        </form>
+
+        <hr>
+        <!-- Group -->
+        <h5>Contoh Form Group</h5>
+        <form action="#">
+            <div class="mb-3">
+                <label for="">Nama</label>
+                <input type="text" class="form-group" placeholder="Masukkan nama anda...">
+            </div>
+            <div class="mb-3">
+                <label for="">Disabled</label>
+                <input type="text" class="form-control" placeholder="Masukkan nama anda..." disabled>
+            </div>
+            <div class="mb-3">
+                <label for="">Color</label>
+                <input type="color" class="form-control form-control-color">
+            </div>
+            <div class="mb-3">
+                <label for="">Tanggal</label>
+                <input type="date" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="">Time</label>
+                <input type="time" class="form-control">
+            </div>
+
+            <button class="btn btn-primary" type="submit">Prosess..</button>
+        </form>
+
+        <hr>
+        <h5>Contoh Form Upload (input File Browser)</h5>
+        <form action="">
+            <div class="mb-3">
+                <label for="">Pilih File</label>
+                <input type="file" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="">Multiple File</label>
+                <input type="file" class="form-control" multiple>
+            </div>
+        </form>
+
+        <hr class="mb-0">
+        <small class="text-mute mt-0 pt-0">--channel ngoding pintar</small>
+    </div>
+    <!-- Akhir Container -->
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
