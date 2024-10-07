@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form - Control</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- Awal Container -->
+     <div class="container">
+        <!-- Form Grid / Layout -->
+         <h5>Form Grid</h5>
+         <div class="row g-2">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Username">
+            </div>
+            <div class="col">
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+         </div>
+
+
+     <hr>
+     <h5>Form Data Mahasiswa</h5>
+     <form action="">
+        <div class="row">
+            <div class="col-md-6 mb-2">
+                <label for="">Nama Lengkap</label>
+                <input type="text" class="form-control" placeholder="Inputkan Nama Lengkap anda">
+            </div>
+            <div class="col-md-2 mb-2">
+                <label for="">NIM</label>
+                <input type="text" class="form-control" placeholder="Inputkan NIM Anda.">
+            </div>
+            <div class="col-md-4 mb-2">
+                <label for="">Jurusan</label>
+                <select name="" id="" class="form-select">
+                    <option value="Sistem Informasi">Sistem Informasi</option>
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                    <option value="Managemen Informatika">Managemen Informatika</option>
+                </select>
+            </div>
+            <div class="col-md-4 mb-2">
+                <label for="">No.Hp</label>
+                <input type="text" class="form-control" placeholder="Inputkan No.HP anda">
+            </div>
+            <div class="col-md-4 mb-2">
+                <label for="">Email</label>
+                <input type="text" class="form-control" placeholder="Inputkan Email anda">
+            </div>
+            <div class="col-md-4 mb-2">
+                <label for="">Alamat</label>
+                <textarea name="" id="" class="form-control"></textarea>
+            </div>
+        </div>
+        <div class="col-md-2 mx-auto d-block">
+            <button class="btn btn-primary">Simpan</button>
+        </div>
+     </form>
+
+     <hr>
+     <div class="card bg-info">
+        <div class="card-header">
+            <h5>Input Data Mahasiswa</h5>
+        </div>
+        <div class="card-body">
+            <form action="">
+                <div class="row">
+                    <div class="col-md-6 mb-2">
+                        <label for="">Nama Lengkap</label>
+                        <input type="text" class="form-control" placeholder="Inputkan Nama Lengkap anda">
+                    </div>
+                    <div class="col-md-2 mb-2">
+                        <label for="">NIM</label>
+                        <input type="text" class="form-control" placeholder="Inputkan NIM Anda.">
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="">Jurusan</label>
+                        <select name="" id="" class="form-select">
+                            <option value="Sistem Informasi">Sistem Informasi</option>
+                            <option value="Teknik Informatika">Teknik Informatika</option>
+                            <option value="Managemen Informatika">Managemen Informatika</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="">No.Hp</label>
+                        <input type="text" class="form-control" placeholder="Inputkan No.HP anda">
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="">Email</label>
+                        <input type="text" class="form-control" placeholder="Inputkan Email anda">
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <label for="">Alamat</label>
+                        <textarea name="" id="" class="form-control"></textarea>
+                    </div>
+                </div>
+               
+             </form>
+        </div>
+        <div class="card-footer">
+            <div class="col-md-2 mx-auto d-block">
+                <button class="btn btn-primary">Simpan</button>
+                <button class="btn btn-danger">Batal</button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+    <!-- Form Validas -->
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+
+
+    </div>
+    <!-- Akhir Container -->
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+            }, false)
+        })
+        })()    
+    </script>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
