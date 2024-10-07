@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+
+
+    <!-- Container Start -->
+<div class="container">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPendataan">
+        Klik Untuk menampilkan Modal
+    </button>
+  
+    <!-- Modal -->
+    <div class="modal fade" id="modalPendataan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- header -->
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Form Pendataan Mahasiswa Baru</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- content -->
+            <div class="modal-body">
+                Isi Form Pendataan
+            </div>
+            <!-- Footer -->
+            <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <hr>
+    <!-- Tidak akan close kalau di click di luar modal -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#scrollingContent">
+    Launch Scrolling long content
+    </button>
+  
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            ...
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+        </div>
+        </div>
+    </div>
+  
+    <hr>
+    <!-- Modal dengan Scrollbar yang perlu di sesuaikan adalah classnya saja-->
+    <!-- Scrollable modal -->
+    
+
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#scrollingContent">
+        Launch Scrolling long content
+        </button>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="scrollingContent" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="scrollingContentLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="scrollingContentLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis ex voluptatum delectus suscipit magni distinctio atque saepe quasi facilis eveniet in consequatur, harum sapiente sint a dolor corporis! Non, illum!</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <hr>
+        <!-- Modal dengan grid -->
+         <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Modal grid
+    </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-4">.col-md-4</div>
+                <div class="col-md-4 ms-auto">.col-md-4 .ms-auto</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 ms-auto">.col-md-3 .ms-auto</div>
+                <div class="col-md-2 ms-auto">.col-md-2 .ms-auto</div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 ms-auto">.col-md-6 .ms-auto</div>
+              </div>
+              <div class="row">
+                <div class="col-sm-9">
+                  Level 1: .col-sm-9
+                  <div class="row">
+                    <div class="col-8 col-sm-6">
+                      Level 2: .col-8 .col-sm-6
+                    </div>
+                    <div class="col-4 col-sm-6">
+                      Level 2: .col-4 .col-sm-6
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <hr>
+  <!-- Modal ukuran paling besar -->
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLg">
+    Klik Untuk menampilkan Modal
+  </button>
+  <div class="modal fade" id="modalLg" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+        <!-- header -->
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Form Pendataan Mahasiswa Baru</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- content -->
+        <div class="modal-body">
+            Isi Form Pendataan
+        </div>
+        <!-- Footer -->
+        <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+    </div>
+    </div>
+</div>
+  
+</div>
+    <!-- Container End -->
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
