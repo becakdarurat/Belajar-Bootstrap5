@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- Container Start -->
+     <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <hr>
+          <!-- Navbar Custom -->
+          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Ngodin<b>Pintar</b></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCustom" aria-controls="navbarCustom" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCustom">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-info" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Jumbotron / punya Bootstrap5 -->
+          <div class="bg-light p-5 mb-4">
+            <div class="container-fluid py-4">
+                <h1 class="display-4 fw-bold">Ngoding pintar</h1>
+                <div class="col-md-8 fs-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tempore, ea cum ex sapiente harum facere ab eligendi esse perspiciatis temporibus veniam dolores molestiae, vel repellendus, fugit perferendis maiores dicta!</div>
+                <button class="btn btn-primary btn-lg">Selengkapnya</button>
+            </div>
+         </div>
+
+     </div>
+    <!-- Container End -->
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
